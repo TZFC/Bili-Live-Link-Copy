@@ -4,7 +4,7 @@
 // @namespace            https://github.com/TZFC
 // @version              0.1
 // @description          Create a button above Bilibili Livestream that copies the stream url to clipboard. Can be used in custom player, download, or in VRChat stream video player.
-// @description:zh-cn    在Bilibili直播间上方添加一个“复制直播流链接”按钮。直播流链接可用在任意播放器，下载，或用于VRChat直播播放器。
+// @description:zh-CN    在Bilibili直播间上方添加一个“复制直播流链接”按钮。直播流链接可用在任意播放器，下载，或用于VRChat直播播放器。
 // @downloadURL           https://raw.githubusercontent.com/TZFC/Bili-Live-Link-Copy/main/bili-live-link-copy.user.js
 // @updateURL           https://raw.githubusercontent.com/TZFC/Bili-Live-Link-Copy/main/bili-live-link-copy.user.js
 // @author               tianzifangchen
