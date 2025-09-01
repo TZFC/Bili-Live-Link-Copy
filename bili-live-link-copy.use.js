@@ -1,12 +1,13 @@
 // ==UserScript==
-// @name         Bilibili Live Master URL Copier (Header Placement)
-// @namespace    https://space.bilibili.com/521676
+// @name         Bilibili Live Master URL Copier
+// @name:zh-CN   Bilibili 直播流链接复制按钮
+// @namespace    https://space.bilibili.com/
 // @version      1.1.0
-// @description  Adds a header-area button (same location as the reference script) to copy the HLS master_url of a Bilibili live stream to clipboard
-// @author       you
+// @description  Adds a header-area button to copy the HLS master_url of a Bilibili live stream to clipboard
+// @author       tianzifangchen
 // @match        https://live.bilibili.com/*
 // @icon         https://www.bilibili.com/favicon.ico
-// @license      MIT
+// @license      GPL 3.0
 // @run-at       document-idle
 // @grant        GM_setClipboard
 // @grant        GM_xmlhttpRequest
@@ -122,7 +123,6 @@
         button.textContent = '复制 Master URL';
         button.classList.add('live-skin-normal-a-text');
 
-        // mimic reference project styles for header controls
         button.style.width = '7.5em';
         button.style.padding = '1px';
         button.style.background = 'transparent';
@@ -141,8 +141,6 @@
     }
 
     async function mount_button_in_header_area() {
-        // Same anchor area that the reference script uses
-        // Prefer the right container inside the lower row of #head-info-vm
         const right_container =
             await wait_for_element_by_query('#head-info-vm .lower-row .right-ctnr', 180000) ||
             await wait_for_element_by_query('#head-info-vm .lower-row', 10000);
