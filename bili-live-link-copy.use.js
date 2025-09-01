@@ -3,7 +3,8 @@
 // @name:zh-CN   Bilibili 直播流链接复制按钮
 // @namespace    https://space.bilibili.com/
 // @version      1.1.0
-// @description  Adds a header-area button to copy the HLS master_url of a Bilibili live stream to clipboard
+// @description  Create a button above Bilibili Livestream that copies the stream url to clipboard. Can be used in custom player, download, or in VRChat stream video player.
+// @description:zh-cn    在Bilibili直播间上方添加一个“复制直播流链接”按钮。直播流链接可用在任意播放器，下载，或用于VRChat直播播放器。
 // @author       tianzifangchen
 // @match        https://live.bilibili.com/*
 // @icon         https://www.bilibili.com/favicon.ico
