@@ -1,18 +1,20 @@
 // ==UserScript==
-// @name         Bilibili Live Master URL Copier
-// @name:zh-CN   Bilibili 直播流链接复制按钮
-// @namespace    https://space.bilibili.com/
-// @version      1.1.0
-// @description  Create a button above Bilibili Livestream that copies the stream url to clipboard. Can be used in custom player, download, or in VRChat stream video player.
+// @name                 Bilibili Live Master URL Copier
+// @name:zh-CN           Bilibili 直播流链接复制按钮
+// @namespace            https://github.com/TZFC
+// @version              0.1
+// @description          Create a button above Bilibili Livestream that copies the stream url to clipboard. Can be used in custom player, download, or in VRChat stream video player.
 // @description:zh-cn    在Bilibili直播间上方添加一个“复制直播流链接”按钮。直播流链接可用在任意播放器，下载，或用于VRChat直播播放器。
-// @author       tianzifangchen
-// @match        https://live.bilibili.com/*
-// @icon         https://www.bilibili.com/favicon.ico
-// @license      GPL 3.0
-// @run-at       document-idle
-// @grant        GM_setClipboard
-// @grant        GM_xmlhttpRequest
-// @connect      api.live.bilibili.com
+// @downloadURL           https://raw.githubusercontent.com/TZFC/Bili-Live-Link-Copy/main/bili-live-link-copy.user.js
+// @updateURL           https://raw.githubusercontent.com/TZFC/Bili-Live-Link-Copy/main/bili-live-link-copy.user.js
+// @author               tianzifangchen
+// @match                *://live.bilibili.com/*
+// @icon                 https://www.bilibili.com/favicon.ico
+// @license              GPL 3.0
+// @run-at               document-start
+// @grant                GM_setClipboard
+// @grant                GM_xmlhttpRequest
+// @connect              api.live.bilibili.com
 // ==/UserScript==
 
 (function () {
