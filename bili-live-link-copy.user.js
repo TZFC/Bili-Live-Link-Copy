@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name                 Bilibili Live Master URL Copier (Simplified + accept_qn)
-// @name:zh-CN           Bilibili 直播流链接复制按钮（精简版 + 接受清晰度）
+// @name                 Bilibili Live URL Copy
+// @name:zh-CN           Bilibili 直播流链接复制器
 // @namespace            https://github.com/TZFC
 // @version              0.8
-// @description          Copy live stream URL with a gradient button. Dropdown lists actually available qualities (HLS and FLV), including accept_qn, defaulting to the lowest. Dark-mode aware.
-// @description:zh-CN    一键复制直播流链接。下拉框仅显示实际可用清晰度（含 HLS 与 FLV），并包含 accept_qn，可用时默认选择最低清晰度。支持深色模式。
+// @description          Copy live stream URLs with a gradient button. Dropdown lists available qualities (HLS and FLV) including accept_qn, defaulting to the lowest. Dark-mode aware.
+// @description:zh-CN    一键复制直播流链接。下拉框显示可用清晰度（含 HLS 与 FLV），并包含 accept_qn，可用时默认选择最低清晰度。支持深色模式。
 // @author               tianzifangchen
 // @match                *://live.bilibili.com/*
 // @icon                 https://www.bilibili.com/favicon.ico
