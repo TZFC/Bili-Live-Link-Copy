@@ -14,6 +14,8 @@
 // @grant                GM_setClipboard
 // @grant                GM_xmlhttpRequest
 // @connect              api.live.bilibili.com
+// @downloadURL          https://github.com/TZFC/Bili-Live-Link-Copy/raw/refs/heads/main/bili-live-link-copy.user.js
+// @updateURL            https://github.com/TZFC/Bili-Live-Link-Copy/raw/refs/heads/main/bili-live-link-copy.user.js
 // ==/UserScript==
 
 (function () {
